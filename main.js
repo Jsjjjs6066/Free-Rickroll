@@ -1,12 +1,12 @@
-document.getElementById('r').onclick(function () {
+document.getElementById('r').onclick = function () {
 	location.href('rickroll.html')
-})
-document.getElementById('v').onclick(function () {
+}
+document.getElementById('v').onclick = function () {
 	location.href('rickroll.html')
-})
-document.getElementById('mc').onclick(function () {
+}
+document.getElementById('mc').onclick = function () {
 	location.href('rickroll.html')
-})
-document.getElementById('g').onclick(function () {
+}
+document.getElementById('g').onclick = function () {
 	location.href('rickroll.html')
-})
+}
