@@ -8,18 +8,27 @@ body {
 }
 
 #container {
-    width: 250px;
-    height: 500px;
+    /* width: 250px;
+    height: 500px; */
     border-radius: 10px;
     background-color: darkblue;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 button {
     display: block;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
     border-radius: 10px;
-    font-size: larger;
+    font-size: 32pt;
     background-color: blue;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(62, 62, 255);
 }
