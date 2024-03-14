@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blue;
+}
+
+#container {
+    width: 250px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: darkblue;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: larger;
+    background-color: blue;
+}
